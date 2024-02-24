@@ -1,0 +1,56 @@
+.h-90 {
+    min-height: 90px;
+}
+
+.git_img {
+    width: 10%;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 50px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+@media(max-width: 991px) {
+    .item-cart {
+        align-self: center;
+    }
+}
+
+.cart-open {
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/bin_for_head.jpg');
+    background-size: 60px;
+    background-position: center;
+    border: none;
+}
+
+.cart-count {
+    bottom: -13px;
+    left: 20px;
+    color: white;
+}
+
+.cart-box-img{
+    width: 30%;
+}
+
+@media(max-width: 400px){
+    .cart-box-img{
+        display: none;
+    }
+}
+
+.cart-img{
+    width: 100%;
+
+}
+
+.footer {
+    min-height: 60px;
+}
